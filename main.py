@@ -2,7 +2,7 @@ import phonenumbers
 from phonenumbers import geocoder
 from phonenumbers import carrier
 
-number = input("Enter your phone number with country name: ")
+number = input("Enter your phone number with country code: ")
 
 ch_no = phonenumbers.parse(number, "CH")
 
